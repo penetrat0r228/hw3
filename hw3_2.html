@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+        }
+        h1{
+            font-size: 100px;
+        }
+        p{
+            font-size: 30px;
+            text-align: center;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        section a{
+            text-decoration: none;
+        }
+        #red{
+            background-color: indianred;
+        }
+        #green{
+            background-color: darkseagreen;
+        }
+        #blue{
+            background-color: cornflowerblue;
+        }
+        .arr{
+            font-size: 70px;
+        }
+
+    </style>
+</head>
+<body>
+<section id="red">
+    <h1>Section title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, aliquid consectetur, consequatur culpa esse magni modi perferendis placeat quasi quidem suscipit velit, vero. Aliquam aspernatur ducimus molestias possimus sed. Aliquam assumenda consectetur consequuntur ipsa iste, magni praesentium quod tempora?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aliquid commodi, consequatur dignissimos dolore ducimus eos esse exercitationem harum, impedit ipsa iure minima molestiae nam officia quas quibusdam quidem quisquam sapiente sed sequi tempora tempore ut vel velit veritatis voluptas. Aliquam commodi cum labore natus.</p>
+    <div class="arr">
+        <a href="#green">&#8595</a>
+    </div>
+</section>
+<section id="green">
+    <div class="arr"><a href="#red">&#8593</a></div>
+    <h1>Section title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, aliquid consectetur, consequatur culpa esse magni modi perferendis placeat quasi quidem suscipit velit, vero. Aliquam aspernatur ducimus molestias possimus sed. Aliquam assumenda consectetur consequuntur ipsa iste, magni praesentium quod tempora?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aliquid commodi, consequatur dignissimos dolore ducimus eos esse exercitationem harum, impedit ipsa iure minima molestiae nam officia quas quibusdam quidem quisquam sapiente sed sequi tempora tempore ut vel velit veritatis voluptas. Aliquam commodi cum labore natus.</p>
+    <div class="arr"><a href="#blue">&#8595</a></div>
+</section>
+<section id="blue">
+    <div class="arr"><a href="#green">&#8593</a></div>
+    <h1>Section title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, aliquid consectetur, consequatur culpa esse magni modi perferendis placeat quasi quidem suscipit velit, vero. Aliquam aspernatur ducimus molestias possimus sed. Aliquam assumenda consectetur consequuntur ipsa iste, magni praesentium quod tempora?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aliquid commodi, consequatur dignissimos dolore ducimus eos esse exercitationem harum, impedit ipsa iure minima molestiae nam officia quas quibusdam quidem quisquam sapiente sed sequi tempora tempore ut vel velit veritatis voluptas. Aliquam commodi cum labore natus.</p>
+</section>
+</body>
+</html>
